@@ -18,8 +18,11 @@ window.addEventListener('load', function(){
     }
 
     var boton = document.querySelector("#boton");
+
     boton.addEventListener('click', function(){
         cambiarColor();
+        this.style.border = "10px solid black";
+        console.log(this);
     });
 
     //Mouse over
