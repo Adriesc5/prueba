@@ -1,0 +1,227 @@
+*{
+    margin: 0px;
+    font-family: "Verdana", 'sans-serif', 'arial';
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+body{
+    background: url(../img/hojas.jpg);
+    background-attachment: fixed;
+    
+}
+#global{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background: rgba(255, 255, 255, 0.945);
+}
+#logo{
+    font-family: "Verdana", 'sans-serif', 'arial';
+    font-size: 20px;
+    width: 385px;
+    height: 80px;
+    text-align: center;
+    margin: 10px 0;
+    line-height: 70px;
+    color: white;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    float: left;
+    border-radius: 10px;
+}
+#menu{
+    font-family: Helvetica, sans-serif;
+    border-radius: 10px;
+    width: 100%;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    background: #333;
+}
+#menu ul{
+    line-height: 46px;
+    list-style: none;
+}
+#menu ul li{
+    height: 46px;
+    display: inline-block;
+    transition: all 0.3s;
+
+}
+#menu a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#posts{
+    width: 60%;
+    float: left;
+    font-family: Helvetica, sans-serif;
+    margin-bottom: 20px;
+    padding: 7px;
+}
+h2{
+    font-family: Helvetica, sans-serif;
+    font-size: 30px;
+    color: #333;
+}
+.post .date{
+    display: block;
+    margin-top: 5x;
+    color: gray;
+}
+.post p{
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    line-height: 20px;
+}
+.button-more{
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    width: 70px;
+    float: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+#sidebar{
+    font-family:  Helvetica, sans-serif;
+    width: 35%;
+    float: right;
+}
+#sidebar h4{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 10px;
+    color: #333;
+}
+#sidebar img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+#sidebar p{
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    line-height: 20px;
+}
+form input[type="text"], form input[type="password"],form input[type="email"],
+form input[type="number"],select{
+    width: 95%;
+    padding:5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+form input[type="submit"]{
+    width: 60%;
+    padding: 5px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer{
+    font-family:  Helvetica, sans-serif;
+    color: white;
+    height: 57px;
+    margin:0px auto;
+    width: 80%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 40px;
+    line-height: 47px;
+    border-radius: 5px;
+    background: rgba(51,51,51,0.70);
+
+}
+.bx-wrapper, .bx-viewport {
+    margin-top: 20px;
+    border-radius: 20px;
+    height: 400px !important;
+}
+
+#selector-theme{
+    position: fixed;
+    top: 40%;
+    background: rgba(51,51,51,0.50);
+    width: 50px;
+    height: 100px;
+}
+#to-green, #to-blue, #to-red{
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    display: block;
+    margin: 0px auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#to-green{
+    background: #235e3d;
+}
+#to-blue{
+    background: #1f87c5;
+}
+#to-red{
+    background: #CA3413;
+}
+.subir{
+    color: white;
+    text-decoration: none;
+    display: block;
+    float: right;
+
+}
+#box{
+   width: 60%;
+    float: left;
+    margin-top: 40px;
+}
+#acordeon{
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+#reloj{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: helvetica;
+    text-align: center;
+    margin-top: 17.5%;
+
+
+}
+#form_contact{
+    width: 60%;
+    margin-top: 20px;
+}
+#form_contact label{
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    
+}
+.form-error{
+    color: red;
+    padding: 10px;
+    width: 60%;
+    
+}

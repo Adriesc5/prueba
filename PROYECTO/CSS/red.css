@@ -1,0 +1,35 @@
+body{
+    background: url(../img/nubes.jpg);
+    background-attachment: fixed;
+}
+#logo{
+    background-color: #CA3413;
+}
+#menu ul li:hover{
+    background: #CA3413;
+}
+.button-more{
+    background: #ca705b;
+}
+.button-more:hover{
+    background: #CA3413;
+}
+#sidebar h4 span{
+    color: #CA3413;
+}
+form input[type="text"], form input[type="password"],form input[type="email"]{
+
+    border: 1px solid #CA3413;
+    box-shadow: 0 0 3px #CA3413;
+}
+
+form input[type="submit"]{
+    background: #ca705b;
+
+}
+form input[type="submit"]:hover{
+    background: #CA3413;
+}
+#reloj{
+    color: #CA3413;
+}

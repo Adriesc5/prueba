@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sopbre mi</title>
+    <!--Estilos css-->
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link id ='theme'rel="stylesheet" href="CSS/green.css">
+
+     <!-- jQuery y jQuery UI -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+     <link rel="stylesheet" href="JS/jquery-ui-1.13.3/jquery-ui.min.css">
+     <link rel="stylesheet" href="JS/jquery-ui-1.13.3/jquery-ui.structure.min.css">
+     <link rel="stylesheet" href="JS/jquery-ui-1.13.3/jquery-ui.theme.min.css">
+     <script type="text/javascript" src="JS/jquery-ui-1.13.3/jquery-ui.min.js"></script>
+     <!-- Plugin validacion -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+    <!--//Scripts-->
+    <script type="text/javascript" src="JS/ejectos.js"></script>
+</head>
+<body>
+
+    <div id="selector-theme">
+        <div id="to-green">
+            
+        </div>
+        <div id="to-red">
+
+        </div>
+        <div id="to-blue">
+
+        </div>
+    </div>
+
+    <section id="global">
+        <br>
+        <header>
+            <div id="logo">
+                <h1>PROYECTO JS</h1>
+            </div>
+            <div class="clearfix"></div>
+            <nav  id="menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="reloj.html">Reloj</a></li>
+                    <li><a href="about.html">Sobre mi</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="content">
+
+        </section>
+        <div id="box">
+            <!--Cargar formulario contacto-->
+            <h2>Contacto</h2>
+            <form action="" method="POST" id="form_contact">
+                <label for="name">Nombre</label>
+                <input type="text" name="name" data-validation="alphanumeric">
+                <label for="surname" >Apellido</label>
+                <input type="text" name="surname" data-validation="alphanumeric">
+                <label>Email</label>
+                <input type="email" name="email" data-validation="email">
+
+                <label for = 'sex'>Genero</label>
+                <select name="sex" data-validation="required">
+                    <option value="men">Hombre</option> 
+                    <option value="woman">Mujer</option> 
+                 </select>
+
+                <label for="date">Fecha de nacimiento</label>
+                <input type="text" name="date" data-validation="date" data-validation-format="dd-mm-yyyy">
+
+                <label for="years">Edad</label>
+                <input type="number" name="years "data-validation="number" >
+
+                <input type="submit" value="Enviar">
+            </form>
+            
+        </div>
+        
+        <aside id="sidebar">
+            <div id="about">
+                <h4><span>Quien soy?</span></h4>
+                <img src="img/tigre.jpg" alt="Foto de tigre">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                    nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div id="login">
+                <h4>Identificate</h4>
+                <form action="">
+                    <label for="name">
+                        Nombre:
+                        <input type="text" name="name" id="form_name">
+                    </label>
+                    <label for="email">
+                        Correo:
+                        <input type="text" name="email" >
+                    </label>
+                    <label for="password">
+                        Contraseña:
+                        <input type="password" name="password">
+                    </label>
+                    <input type="submit" value="Entrar">
+                </form>
+            </div>
+
+        </aside>
+        <div class="clearfix">
+
+        </div>
+    </section>
+    <footer>
+        Curso de JS Adrian Escobedo 2024
+        <a href="#" class="subir">Ir al inicio</a>
+    </footer>
+</body>
+</html>
